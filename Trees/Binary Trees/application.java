@@ -12,9 +12,9 @@ class Node {
 }
 
 public class application{
-    static scanner sc = new scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
-    static node BuildTree(){
+    static Node BuildTree(){
         int data = sc.nextInt();
         if(data == -1) return null;
 
